@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando com DOM</title>
+</head>
+
+<body>
+    <!--Faça um programa que capture o evento de um input na sua tela
+     e mostre automaticamente a tabuada desse número abaixo-->
+     <h2>🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷</h2>   
+     <h1>Tabuadinha da ❀Sam❀[0 a 100]</h1>
+     <input id="numero" placeholder="Digite um Número" onkeyup="mostrarTabuada()">
+     <div id="resultado"></div>
+     <h2>🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵</h2>
+     
+     <script>
+        function mostrarTabuada(){
+            
+            console.log("entrei")
+            var numero = document.querySelector("#numero");
+            var resultado = document.querySelector("#resultado");
+            resultado.innerText = "";
+            
+            for (var i = 0; i <= 100; i++){
+                var div = document.createElement("div");
+                div.innerText = numero.value * i;
+                resultado.appendChild(div);
+            }
+        }
+     </script>
+</body>
+
+</html>

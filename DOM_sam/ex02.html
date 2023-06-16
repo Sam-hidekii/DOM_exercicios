@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <!-- Faça um programa que "pegue" uma lista <ol> no html e coloque
+         negrito dinâmicamente a partir de um nome digitado no seu input.-->
+         <h2>🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷🠷</h2> 
+         <h1>Qual posição estou? por ❀Sam❀</h1>
+        <input id="nome" placeholder="Digite um nome" onkeyup="destacar()">
+        <ol class="listaDeNomes">
+            <li>João Redman</li>
+            <li>Bernado Brito</li>
+            <li>Past el de Carnie</li>
+            <li>Rodrigues Carvalho</li>
+            <li>Gabriela Day</li>
+            <li>Luva de Japo Ness</li>
+            <li>Jonas Baleiudo do Mar</li>
+            <li>Lucas Silva de Sousa</li>
+            <li>Vitor Myhus Band</li>
+            <li>Ruan Perez</li>
+            <li>Maria das Graça</li>
+            <li>Tortuguita Silva</li>
+            <li>Gatorade Diuva</li>
+            <li>Pelé da Silva Péricles</li>
+            <li>Enrico Miqueias</li>
+            <li>Daniel Andrade</li>
+            <li>Tiringa Gomes</li>
+            <li>Melissa America</li>
+            <li>Luiz Carlos</li>
+            <li>Mogi das Cruzes</li>
+            <li>Eliete Alves</li>
+            <li>Alan Jorge</li>
+            <li>Ana Paula</li>
+            <li>Isaac Alves</li>
+            <li>Asma de Pulmão</li>
+            <li>Tera Byte</li>
+            <li>Thauane Souza do Nascimento</li>
+            <li>Vito Teixeira</li>
+            <li>Bala Halls</li>
+            <li>Tainá Novaes</li>
+            <li>Isabella Pasternack</li>
+            <li>Lays Melo</li>
+            <li>Sugiyama Japa</li>
+            <li>Luckas Rodrigues</li>
+            <li>Isabella Oliveira</li>
+            <li>Enzo Pereira</li>
+            <li>Sophia Costa</li>
+            <li>Miguel Almeida</li>
+            <li>Manuela Santos</li>
+            <li>Arthur Ferreira</li>
+            <li>Helena Barbosa</li>
+            <li>Bernardo Gomes</li>
+            <li>Valentina Rodrigues</li>
+            <li>Heitor Carvalho</li>
+            <li>Laura Martins</li>
+            <li>Davi Souza</li>
+            <li>Júlia Lima</li>
+            <li>Pedro Rocha</li>
+            <li>Beatriz Castro</li>
+            <li>Matheus Cardoso</li>
+            <li>Luiza Nunes</li>
+            <li>Bruno Mendes</li>
+            <li>Gabriela Ferreira</li>
+            <li>Gustavo Santos</li>
+            <li>Antonella Ribeiro</li>
+            <li>Rafaela Cunha</li>
+            <li>Leonardo Oliveira</li>
+            <li>Larissa Costa</li>
+            <li>Bryan Rocha</li>
+            <li>Camila Alves</li>
+            <li>Enrico Gomes</li>
+            <li>Ana Clara Martins</li>
+            <li>André Castro</li>
+            <li>Isadora Sousa</li>
+            <li>Francisco Lima</li>
+            <li>Maria Eduarda Ribeiro</li>
+            <li>Giovanni Fernandes</li>
+            <li>Clara Carvalho</li>
+            <li>João Viana</li>
+            <li>Manuela Dias</li>
+            <li>Guilherme Andrade</li>
+            <li>Marina Pereira</li>
+            <li>Henrique Rodrigues</li>
+            <li>Lorena Silva</li>
+            <li>Samuel Costa</li>
+            <li>Carolina Oliveira</li>
+            <li>Pedro Henrique Santos</li>
+            <li>Letícia Ferreira</li>
+            <li>Eduardo Barbosa</li>
+            <li>Maria Luiza Gomes</li>
+            <li>David Cardoso</li>
+            <li>Mariana Souza</li>
+            <li>Gabriel Mendes</li>
+            <li>Ana Laura Castro</li>
+            <li>Rodrigo Nunes</li>
+            <li>Emilly Mendonça</li>
+            <li>João Miguel Costa</li>
+            <li>Júlia Almeida</li>
+            <li>Leonardo Sousa</li>
+            <li>Antônia Pereira</li>
+            <li>Enzo Gabriel Carvalho</li>
+            <li>Mariana Ribeiro</li>
+            <li>Luiz Felipe Cunha</li>
+            <li>Luana Oliveira</li>
+            <li>João Lucas Lima</li>
+            <li>Lívia Castro</li>
+            <li>Caio Fernandes</li>
+            <li>Isabelly Martins</li>
+            <li>Felipe Gomes</li>
+            <li>Sophie Rodrigues</li>
+            <li>Tomás Almeida</li>
+            <li>Giovanna Costa</li>
+            <li>Benjamin Ribeiro</li>
+            <li>Carlos Silva</li>
+            <li>Juliana Santos</li>
+            <li>Rafael Pereira</li>
+            <li>Isabel Costa</li>
+            <li>Lucas Almeida</li>
+            <li>Larissa Souza</li>
+            <li>Matheus Fernandes</li>
+            <li>Mariana Oliveira</li>
+            <li>Gustavo Rodrigues</li>
+            <li>Ana Clara Gomes</li>
+            <li>André Lima</li>
+            <li>Carolina Mendes</li>
+            <li>Pedro Barbosa</li>
+            <li>Fernanda Carvalho</li>
+            <li>Leonardo Nunes</li>
+            <li>Beatriz Castro</li>
+            <li>Diego Santos</li>
+            <li>Sofia Ferreira</li>
+            <li>Guilherme Ribeiro</li>
+            <li>Lara Cunha</li>
+            <li>Enzo Costa</li>
+            <li>Giovanna Rocha</li>
+            <li>João Viana</li>
+            <li>Isabela Dias</li>
+            <li>Gabriel Andrade</li>
+            <li>Laura Pereira</li>
+            <li>Bruno Souza</li>
+            <li>Julia Mendonça</li>
+            <li>Felipe Lima</li>
+            <li>Manuela Ribeiro</li>
+            <li>Rafaela Oliveira</li>
+            <li>Henrique Rodrigues</li>
+            <li>Luiza Silva</li>
+            <li>Vinicius Oliveira</li>
+            <li>Thais Costa</li>
+            <li>Marcos Castro</li>
+            <li>Ana Beatriz Gomes</li>
+            <li>Luiz Felipe Cunha</li>
+            <li>Lorena Oliveira</li>
+            <li>Eduardo Lima</li>
+            <li>Mariana Fernandes</li>
+            <li>Pedro Henrique Santos</li>
+            <li>Letícia Ferreira</li>
+            <li>Renan Barbosa</li>
+            <li>Gabriela Gomes</li>
+            <li>Gustavo Ribeiro</li>
+            <li>Bruna Souza</li>
+        </ol>
+        <h2>🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵🠵</h2>
+        <script>
+            function destacar(){
+                console.log("entrei")
+                var nome = document.querySelector("#nome");
+                var lista = document.querySelector(".listaDeNomes");
+                var listaDeNomes = lista.querySelectorAll("li");
+                var novaLista = [];
+
+                for (var i = 0; i < listaDeNomes.length; i++) {
+                    var nomeAtual = listaDeNomes[i].textContent;
+                    if (nome.value == nomeAtual){
+                        var li = document.createElement("li");
+                        var strong = document.createElement("strong");
+                        strong.innerText = nomeAtual;
+                        li.appendChild(strong);
+                        novaLista.push(li);
+                    } else { 
+                        var li = document.createElement("li");
+                        li.innerText = nomeAtual;
+                        novaLista.push(li);
+                        } 
+                }
+                lista.innerText = "";
+                for (var i = 0; i < novaLista.length; i++){
+                    lista.appendChild(novaLista[i]);
+                }
+                console.log(novaLista)
+            }
+        </script>
+</body>
+</html>
